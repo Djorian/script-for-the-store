@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="HTML5 CSS3 JavaScript Bootstrap 4" />
+    <meta name="author" content="Егоров Дмитрий" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <title>HTML5 CSS3 JavaScript Bootstrap 4</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                </div>
+                <div class="col-lg-12">
+                    <div class="text-center mt-5 mb-5">
+                        <div class="text-right" id="day-of-week"></div>
+                        <h2>HTML5 CSS3 JavaScript Bootstrap 4</h2>
+                        <p>Скрипт для вывода списка открытых и закрытых магазинов на текущий момент времени</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="text-center p-3 mb-2 bg-success text-white">Открытые магазины</h3>
+                <div class="table-responsive">
+                    <table class="table table-bordered mt-3 text-center">
+                        <thead class="thead-light">
+                            <tr>
+                                <th scope="col">Название магазина:<img class="pt-2 float-right"></th>
+                                <th scope="col">Часы работы:<img class="pt-2 float-right">
+                                </th>
+                                <th scope="col">До закрытия магазина осталось:<img class="pt-2 float-right">
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody id="shops-open-block"></tbody>
+                    </table>
+                </div>
+                <h3 class="text-center p-3 mb-2 mt-3 bg-danger text-white">Закрытые магазины</h3>
+                <div class="table-responsive">
+                    <table class="table table-bordered mt-3 text-center">
+                        <thead class="thead-light">
+                            <tr>
+                                <th scope="col">Название магазина:<img class="pt-2 float-right"></th>
+                                <th scope="col">Часы работы:<img class="pt-2 float-right">
+                                </th>
+                                <th scope="col">До отрытия магазина осталось:<img class="pt-2 float-right">
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody id="shops-close-block"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id=" footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-copyright text-center mt-4 pb-3">&copy; 2021 Автор проекта: Егоров Дмитрий
+                        <a href="https://www.djorian.com" target="_blank">djorian.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background: #FFFFFF;
+}
+
+a {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: #212529;
+  text-decoration: none;
+}
